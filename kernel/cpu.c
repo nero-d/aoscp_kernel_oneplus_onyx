@@ -16,7 +16,7 @@
 #include <linux/mutex.h>
 #include <linux/gfp.h>
 #include <linux/suspend.h>
-
+#include <linux/oom.h>
 #include <trace/events/sched.h>
 
 #ifdef CONFIG_SMP
